@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    letter-spacing: 0.3px;
+    font-family: Arial, Heivetica, sans-serif;
+}
+
+.title {
+    padding: 6px;
+    text-align: center;
+    font-size: 34px;
+    font-weight: bold;
+    margin: 30px auto 20px;
+    position: relative;
+}
+
+.category-item figure img {
+    height: 55vh;
+    width: 99%;
+    border-radius: 10px;
+    border-bottom: 4px solid #946656;
+    transition: 0.2s
+}
+
+.category-item:hover img {
+    border: 2px solid #946656;
+    border-bottom: 6px solid #946656;
+    border-bottom-left-radius: 14px;
+    border-bottom-right-radius: 14px;
+}
+
+.category-info {
+    margin-left: 3px;
+}
+
+span {
+    color: #9b9696;
+    float: right;
+    margin-right: 3%;
+}
+
+.category-info p {
+    font-weight: bold;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+.pp,
+a {
+    color: #9a7062
+}
+
+a:hover {
+    color: #9f6856;
+}
+
+#bttn {
+    background-color: #cea697;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#bttn:hover,
+.nav-pills .nav-link.active {
+    background-color: #c39b8d;
+}
+
+.nav-pills .nav-link {
+    background-color: #d8b5a8;
+}
+
+.bag {
+    width: 20%;
+}
+
+#bodyOfCard,
+#price {
+    font-size: 14px;
+    padding: 0;
+}
+
+.coll {
+    padding: 10px;
+}
+
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.container {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+@media(max-width:800px) {
+    .bag {
+        width: 70%;
+        margin-left: 2%;
+        margin: auto;
+    }
+
+    .category-item figure img {
+        height: 35vh;
+    }
+
+    .category-info span {
+        font-size: 9px;
+    }
+
+    .category-info p {
+        font-size: 12px;
+    }
+
+}
+
+@media(max-width:600px) {
+
+    #bodyOfCard,
+    #price {
+        font-size: 12px;
+    }
+}
